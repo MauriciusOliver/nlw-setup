@@ -1,0 +1,33 @@
+O que é git?
+-historico de projeto
+Linha do tempo
+
+
+	---conceitos basicos---
+
+-Repository
+Local onde ficará o histórico do seu projeto
+
+-Branch
+Linha do tempo
+
+-Commit
+Pontos na história
+
+-Stage
+Preparação do que será enviado para o ponto na história
+
+
+
+//inicia o git(repositório) no seu projeto
+	git init
+
+//adiciona todos os arquivos modificados ao stage
+	git add .(esse pontinho adiciona todos os arquivos modificados que estão nesse comando, na
+pasta).
+
+//cria e descreve ponto na história
+	git commit -m "message here"
+
+//envia alterações para o repositório remoto
+	git push
